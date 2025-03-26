@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeactivateActivity"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/main">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/rectangle_1"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:background="@drawable/top_bar" />
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icon_backarrow" />
+
+            <TextView
+                android:id="@+id/search_serv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:text="Deactivate Account"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:text="What happens when you deactivate your \naccount?"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:textSize="14dp"
+        android:text="Your profile won't be shown on WorkWise anymore Active orders will be cancelled, not including delivered orders."
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:textSize="14dp"
+        android:text="Any usernames and email addresses associated with this account cannot be reused on new accounts in the future."
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:textSize="14dp"
+        android:text="Closing your account doesn't automatically remove the information on the account. Feedback comments, messages, and public pictures remain."
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="15dp"/>
+
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonbox"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="Deactivate Account"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"></TextView>
+
+</LinearLayout>

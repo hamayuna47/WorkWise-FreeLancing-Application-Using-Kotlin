@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".SearchScreenActivity"
+    android:orientation="vertical"
+    android:background="@color/main">
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:text="Categories"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+
+
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="80dp"
+        android:textColor="@color/special"
+        android:text="Music Producers, Singers and Vocalists"
+        android:textSize="12dp"
+        android:gravity="bottom"
+        android:paddingBottom="25dp"
+        android:background="@drawable/buttonbox"
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="60dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:textSize="15dp"
+        android:text="Music and Audio"
+        android:background="@drawable/buttonbox"
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="50dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginLeft="25dp"/>
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bulletpoint"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-15dp"/>
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="80dp"
+        android:textColor="@color/special"
+        android:text="Product Photographs, portrait photographs"
+        android:textSize="12dp"
+        android:gravity="bottom"
+        android:paddingBottom="25dp"
+        android:background="@drawable/buttonbox"
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="60dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:textSize="15dp"
+        android:text="Photography"
+        android:background="@drawable/buttonbox"
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="50dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginLeft="25dp"/>
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bulletpoint"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-15dp"/>
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="80dp"
+        android:textColor="@color/special"
+        android:text="App/web development, websie mantainance"
+        android:textSize="12dp"
+        android:gravity="bottom"
+        android:paddingBottom="25dp"
+        android:background="@drawable/buttonbox"
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="60dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:textSize="15dp"
+        android:text="Programming and Tech"
+        android:background="@drawable/buttonbox"
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="50dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginLeft="25dp"/>
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bulletpoint"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-15dp"/>
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="80dp"
+        android:textColor="@color/special"
+        android:text="Video Editing, video ads and commercials"
+        android:textSize="12dp"
+        android:gravity="bottom"
+        android:paddingBottom="25dp"
+        android:background="@drawable/buttonbox"
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="60dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:textSize="15dp"
+        android:text="Video and Animation"
+        android:background="@drawable/buttonbox"
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="50dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginLeft="25dp"/>
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bulletpoint"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-15dp"/>
+
+
+    <include
+        android:id="@+id/bottom_menu"
+        layout="@layout/bottommenu_atsearch"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="#27374D"
+        android:orientation="horizontal"
+        android:layout_marginTop="220dp"
+        android:layout_gravity="bottom" />
+
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Auto layout, variables, and unit scale are not yet supported -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="#DDE6ED"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Gig"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#27374D"
+        android:lineSpacingExtra="-6sp"
+        android:gravity="top" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:textColorHint="#27374D"
+        android:hint="Toipc"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_field" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:textColorHint="#27374D"
+        android:hint="Description"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:textColorHint="#27374D"
+        android:hint="Price"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:textColorHint="#27374D"
+        android:inputType="time"
+        android:hint="Time"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field" />
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:textColorHint="#27374D"
+        android:hint="Revisions"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field" />
+
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <RelativeLayout
+
+        android:id="@+id/button_createaccount"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/signin_button"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:lineSpacingExtra="1sp"
+            android:gravity="center_horizontal|center_vertical" />
+    </RelativeLayout>
+
+</LinearLayout>

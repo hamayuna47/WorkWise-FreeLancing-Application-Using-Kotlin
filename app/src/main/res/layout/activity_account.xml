@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/main">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/rectangle_1"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:background="@drawable/top_bar" />
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icon_backarrow" />
+
+            <TextView
+                android:id="@+id/search_serv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:text="Account"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Info"
+        android:textColor="@color/special"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/special"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Daniel"
+        android:textColor="@color/special"
+        android:textSize="17dp"
+        android:layout_marginTop="-22dp"
+        android:layout_marginLeft="100dp"/>
+
+
+    <View
+        android:layout_width="340dp"
+        android:layout_height="2dp"
+        android:background="@color/lightslategray"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/special"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="daniel@gmail.com"
+        android:textColor="@color/special"
+        android:textSize="17dp"
+        android:layout_marginTop="-22dp"
+        android:layout_marginLeft="100dp"/>
+
+
+    <View
+        android:layout_width="340dp"
+        android:layout_height="2dp"
+        android:background="@color/lightslategray"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Management"
+        android:textColor="@color/special"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Deletion and Deactivation"
+        android:textColor="@color/special"
+        android:textSize="17dp"
+        android:background="@drawable/buttonbox"
+        android:backgroundTint="@color/lightgrey"
+        android:paddingTop="12dp"
+        android:paddingLeft="15dp"
+        android:gravity="left"/>
+
+    <ImageButton
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:background="@drawable/icon_forwardarrow"
+        android:layout_marginTop="-33dp"
+        android:layout_marginLeft="320dp"/>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#DDE6ED"
+    tools:context=".OpeningActivity">
+
+    <View
+        android:layout_width="169.59dp"
+        android:layout_height="130.59dp"
+        android:background="@drawable/workwiselogo"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore The App"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="-6sp"
+        android:letterSpacing="-0.01"
+        android:textColor="#27374D" />
+
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <TextView
+        android:id="@+id/now_your_fi"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/now_your_fi"
+        android:textAppearance="@style/now_your_fi"
+        android:lineSpacingExtra="1sp"
+        android:translationY="-0.34sp"
+        android:gravity="center_horizontal|top" />
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <RelativeLayout
+        android:id="@+id/button_signin"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/signin_button"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:lineSpacingExtra="1sp"
+            android:gravity="center_horizontal|center_vertical" />
+    </RelativeLayout>
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <RelativeLayout
+        android:id="@+id/button_createaccount"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/create_account_button"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="1sp"
+            android:gravity="center_horizontal|center_vertical" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

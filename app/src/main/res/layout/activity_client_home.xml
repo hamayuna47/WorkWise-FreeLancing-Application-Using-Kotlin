@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDE6ED"
+    android:orientation="vertical"
+    tools:context=".ClientHomeActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/rectangle_1"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:background="@drawable/top_bar" />
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/searchicon" />
+
+            <EditText
+                android:id="@+id/search_serv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:hint="Search Services"
+                android:textColorHint="#949FAC"
+                android:textSize="15sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <TextView
+            android:id="@+id/popular_ser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Popular Services"
+            android:textColor="#27374D"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="View All"
+            android:textColor="#27374D"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/Gig1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+
+
+            <View
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:background="@drawable/gigs_background_home_screen" />
+
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+            <View
+                android:layout_width="110dp"
+                android:layout_height="111dp"
+                android:background="@drawable/gig1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="120dp"
+                android:text="Logo Design"
+                android:textColor="#DDE6ED"
+                android:textSize="14sp" />
+
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginLeft="20dp">
+
+            <View
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:background="@drawable/gigs_background_home_screen" />
+
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+            <View
+                android:layout_width="110dp"
+                android:layout_height="111dp"
+                android:background="@drawable/gig2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="120dp"
+                android:text="AI Artiist"
+                android:textColor="#DDE6ED"
+                android:textSize="14sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+
+            <View
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:background="@drawable/gigs_background_home_screen" />
+
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+            <View
+                android:layout_width="110dp"
+                android:layout_height="111dp"
+                android:background="@drawable/gig3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="120dp"
+                android:text="Voice Over"
+                android:textColor="#DDE6ED"
+                android:textSize="14sp" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-43dp"
+        android:orientation="horizontal">
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Recently Visited"
+            android:textColor="#27374D"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="153dp"
+            android:text="View All"
+            android:textColor="#27374D"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout4"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-164dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+
+            <View
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:background="@drawable/gigs_background_home_screen" />
+
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+            <View
+                android:layout_width="110dp"
+                android:layout_height="111dp"
+                android:background="@drawable/gig4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="120dp"
+                android:text="Image Editing"
+                android:textColor="#DDE6ED"
+                android:textSize="14sp" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginLeft="20dp">
+
+            <View
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:background="@drawable/gigs_background_home_screen" />
+
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+            <View
+                android:layout_width="110dp"
+                android:layout_height="111dp"
+                android:background="@drawable/gig5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="120dp"
+                android:text="Illustration"
+                android:textColor="#DDE6ED"
+                android:textSize="14sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+
+            <View
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:background="@drawable/gigs_background_home_screen" />
+
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+            <View
+                android:layout_width="110dp"
+                android:layout_height="111dp"
+                android:background="@drawable/gig6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="120dp"
+                android:text="Flyer Design"
+                android:textColor="#DDE6ED"
+                android:textSize="14sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <include
+        android:id="@+id/bottom_menu"
+        layout="@layout/bottommenu_athome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp"
+        android:background="#27374D"
+        android:orientation="horizontal" />
+
+</RelativeLayout>

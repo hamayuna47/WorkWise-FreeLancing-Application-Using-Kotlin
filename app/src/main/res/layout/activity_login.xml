@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="#DDE6ED"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#27374D"
+        android:lineSpacingExtra="-6sp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:textColorHint="#27374D"
+        android:hint="Email Address"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_field"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:textColorHint="#27374D"
+        android:hint="Password"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_field"
+        />
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <RelativeLayout
+        android:id="@+id/button_signin"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/signin_button"
+        android:gravity="center"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:lineSpacingExtra="1sp"
+            android:gravity="center_horizontal|center_vertical"
+            />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="bottom"
+            android:lineSpacingExtra="1sp"
+            android:text="Don't have an account?"
+            android:textColor="#27374D"
+            android:translationY="0.28sp" />
+
+        <TextView
+            android:id="@+id/button_createaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="bottom"
+            android:lineSpacingExtra="1sp"
+            android:text=" Create Account"
+            android:textColor="#27374D"
+
+            android:textStyle="bold|italic"
+            android:translationY="0.28sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

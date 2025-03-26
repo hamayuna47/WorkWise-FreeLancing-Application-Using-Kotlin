@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WorkWise</string>
+
+    <!-- strings.xml -->
+    <string name="workwise">
+        WorkWise
+    </string>
+
+
+    <!-- strings.xml -->
+    <string name="now_your_fi">
+        Now your finances are in one place and always under control with WorkWise.
+    </string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
+

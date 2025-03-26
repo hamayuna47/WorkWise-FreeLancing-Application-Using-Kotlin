@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WorkWise"
+        tools:targetApi="31">
+        <activity
+            android:name=".Gig_topic"
+            android:exported="false" />
+        <activity
+            android:name=".ClientChatAvtivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerInboxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientInboxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientChatInboxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActiveOrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageGigsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EarningsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageOrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeactivateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeletionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeletionDeactivationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Support2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SupportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrefrencesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpgradeOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaceOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchFreelancerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OpeningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Support2Activity"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/main"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center|top"
+    >
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/icon_supporttick" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank you for contacting us"
+        android:textColor="@color/special"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We appreciate that you have taken\n the time to write us"
+        android:textColor="@color/special"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We will get back to you soon"
+        android:textColor="@color/special"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:textColor="@color/white"
+        android:text="Home"
+        android:textSize="18dp"
+        android:background="@drawable/buttonbox"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:gravity="center" />
+</LinearLayout>

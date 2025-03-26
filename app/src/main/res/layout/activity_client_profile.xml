@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClientProfileActivity"
+    android:id="@+id/main"
+    android:background="@color/main"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@color/special"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/icon_logout"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="330dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:textColor="@color/orange"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/whitecircle"
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/main"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/whitecircle"
+            android:layout_marginTop="-80dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@color/special"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Daniel"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/main"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textColor="@color/special"
+        android:textSize="17dp"
+        android:text="Seller Mode"
+        android:textStyle="bold"
+        android:background="@drawable/buttonbox"
+        android:backgroundTint="@color/skyblue"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:background="@drawable/greenrectangle"
+        android:backgroundTint="@color/special"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="290dp"></ImageButton>
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="-25dp"
+        android:background="@drawable/whitecircle"
+        android:layout_marginLeft="330dp"></ImageButton>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="526dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:text="Settings"
+            android:textColor="@color/special"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/icon_setting"
+            android:backgroundTint="@color/special" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="-25dp"
+            android:text="Preferences"
+            android:textColor="@color/special"
+            android:textSize="18dp" />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-35dp"
+            android:background="@drawable/icon_forwardarrow" />
+
+        <View
+            android:layout_width="340dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/lightgrey" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/icon_accountsetting"
+            android:backgroundTint="@color/special" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="-25dp"
+            android:text="Account"
+            android:textColor="@color/special"
+            android:textSize="18dp" />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-35dp"
+            android:background="@drawable/icon_forwardarrow" />
+
+        <View
+            android:layout_width="340dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/lightgrey" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/icon_helpsupport"
+            android:backgroundTint="@color/special" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="-25dp"
+            android:text="Help and Support"
+            android:textColor="@color/special"
+            android:textSize="18dp" />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-35dp"
+            android:background="@drawable/icon_forwardarrow" />
+
+        <View
+            android:layout_width="340dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/lightgrey" />
+
+
+
+    </LinearLayout>
+    <include
+        android:id="@+id/bottom_menu"
+        layout="@layout/bottommenu_atprofile"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="-50dp"
+        android:background="#27374D"
+        android:orientation="horizontal" />
+
+
+</LinearLayout>

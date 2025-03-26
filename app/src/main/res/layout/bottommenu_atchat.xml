@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/searchfreelancerscreen"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DDE6ED"
+    android:orientation="vertical"
+    >
+
+    <!-- ================================================= -->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#27374D"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/button_clienthome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            >
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/icon_home" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Home"
+                android:textColor="#DDE6ED"
+                android:textSize="12sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginBottom="10dp"/>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/button_clientchat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_gravity="center"
+            >
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+            <View
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/current_screen_back"
+                />
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/icon_chat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Chat"
+                android:textColor="#DDE6ED"
+                android:textSize="12sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"/>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/button_clientsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_gravity="center"
+            >
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/icon_search" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Search"
+                android:textColor="#DDE6ED"
+                android:textSize="12sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/button_clientprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_gravity="center"
+            >
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/icon_profile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Profile"
+                android:textColor="#DDE6ED"
+                android:textSize="12sp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"/>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

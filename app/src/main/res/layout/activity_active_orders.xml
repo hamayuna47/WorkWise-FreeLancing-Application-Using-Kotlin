@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDE6ED"
+    android:orientation="vertical"
+    tools:context=".ManageGigsActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/rectangle_1"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:background="@drawable/top_bar" />
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icon_backarrow" />
+
+            <TextView
+                android:id="@+id/search_serv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:text="Active Orders"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+
+            <View
+                android:layout_width="335dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/gig_background_fully" />
+
+            <View
+                android:layout_width="108dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/temp_gig_logo" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="5dp"
+                android:text="Do Creative minimalist 3d business\nlogo design in 24 hours"
+                android:textColor="#27374D"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="235dp"
+                android:layout_marginTop="35dp"
+                android:text="From"
+                android:textColor="#27374D"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="265dp"
+                android:layout_marginTop="35dp"
+                android:text="PKR 2999.00"
+                android:textStyle="bold"
+                android:textColor="#27374D"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/special" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/activeorders_date_background"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="140dp"
+                android:text="Mar 8, 2025"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:gravity="center_horizontal|center_vertical"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/activeorders_late_background"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="260dp"
+                android:text="Late"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:gravity="center_horizontal|center_vertical"
+                />
+
+        </FrameLayout>
+
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+
+            <View
+                android:layout_width="335dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/gig_background_fully" />
+
+            <View
+                android:layout_width="108dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/temp_gig_logo" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="5dp"
+                android:text="Do Creative minimalist 3d business\nlogo design in 24 hours"
+                android:textColor="#27374D"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="235dp"
+                android:layout_marginTop="35dp"
+                android:text="From"
+                android:textColor="#27374D"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="265dp"
+                android:layout_marginTop="35dp"
+                android:text="PKR 2999.00"
+                android:textStyle="bold"
+                android:textColor="#27374D"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/special" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/activeorders_date_background"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="140dp"
+                android:text="April 25, 2025"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:gravity="center_horizontal|center_vertical"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/activeorders_inprogess_background"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="260dp"
+                android:text="In Progress"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:gravity="center_horizontal|center_vertical"
+                />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/bottom_menu"
+        layout="@layout/bottommenu_atorders_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="#27374D"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom" />
+</RelativeLayout>

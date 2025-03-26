@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="sky">#DDE6ED</color>
+    <color name="DarkBlue">#27374D</color>
+    <color name="background">#F5F5F5</color>
+    <color name="special">#27374D</color>
+    <color name="main">#DDE6ED</color>
+    <color name="grey">#474646</color>
+    <color name="green">#89FF00</color>
+    <color name="lightgrey">#BECCCD</color>
+    <color name="lightestgrey">#CFD3D3</color>
+    <color name="orange">#FF9A02</color>
+    <color name="skyblue">#B8D5E4</color>
+    <color name="lightslategray">#C7CED5</color>
+
+
+</resources>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EarningsActivity"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/main">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/rectangle_1"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:background="@drawable/top_bar" />
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icon_backarrow" />
+
+            <TextView
+                android:id="@+id/search_serv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:text="Earnings"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center|top"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="$1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/spcialtowhitebox"
+            android:textSize="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="80dp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="Withdraw"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/spcialtowhitebox"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Available for Withdraw"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analytics"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:textColor="@color/special"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:text="Earnings in April"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$0"
+        android:textSize="18dp"
+        android:textColor="@color/special"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="-20dp"/>
+
+    <View
+        android:layout_width="340dp"
+        android:layout_height="1dp"
+        android:background="@color/lightgrey"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:text="Active Orders"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 ($ 0)"
+        android:textSize="18dp"
+        android:textColor="@color/special"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="-20dp"/>
+
+    <View
+        android:layout_width="340dp"
+        android:layout_height="1dp"
+        android:background="@color/lightgrey"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:text="Available for Withdraw"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$0"
+        android:textSize="18dp"
+        android:textColor="@color/special"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="-20dp"/>
+
+    <View
+        android:layout_width="340dp"
+        android:layout_height="1dp"
+        android:background="@color/lightgrey"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:text="Completed Orders"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 ($ 0)"
+        android:textSize="18dp"
+        android:textColor="@color/special"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="-20dp"/>
+
+    <View
+        android:layout_width="340dp"
+        android:layout_height="1dp"
+        android:background="@color/lightgrey"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <include
+        android:id="@+id/bottom_menu"
+        layout="@layout/bottommenu_atprofile_seller"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="190dp"
+        android:layout_marginBottom="0dp"
+        android:background="#27374D"
+        android:orientation="horizontal" />
+
+
+</LinearLayout>

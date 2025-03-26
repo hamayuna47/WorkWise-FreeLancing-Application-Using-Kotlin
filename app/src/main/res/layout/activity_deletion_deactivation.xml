@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeletionDeactivationActivity"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/main">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/rectangle_1"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:background="@drawable/top_bar" />
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/icon_backarrow" />
+
+            <TextView
+                android:id="@+id/search_serv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:text="Deletion and Deactivation"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deactivating or deleting your \nWorkwise account"
+        android:textColor="@color/special"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="If you want to temporarily close your account, you can deactivate it. If you want to permanently remove your data from WorkWise, you can delete your Account."
+        android:textColor="@color/special"
+        android:textSize="14dp"
+
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:textColor="@color/special"
+        android:text="Your Profile and Gigs won’t be shown on WorkWise and Active orders will be cancelled."
+        android:textSize="12dp"
+        android:gravity="bottom"
+        android:paddingBottom="10dp"
+        android:background="@drawable/buttonbox"
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:textSize="14dp"
+        android:text="Deactivate Account"
+        android:background="@drawable/buttonbox"
+        android:textStyle="bold"
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginLeft="25dp"/>
+    <View
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:background="@drawable/bulletpoint"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:textColor="@color/special"
+        android:text="Deleting your Account is permanent and irreversible. You won’t be able to retrieve files or information from your orders on WorkWise."
+        android:textSize="12dp"
+        android:gravity="bottom"
+        android:paddingBottom="10dp"
+        android:background="@drawable/buttonbox"
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:textSize="14dp"
+        android:text="Delete Account"
+        android:background="@drawable/buttonbox"
+        android:textStyle="bold"
+        android:backgroundTint="@color/lightestgrey"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginLeft="25dp"/>
+    <View
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:background="@drawable/bulletpoint"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonbox"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="Continue"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"></TextView>
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClientInboxActivity"
+    android:orientation="vertical"
+    android:background="@color/sky">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/special"
+        android:text="Inbox"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/gig_background_fully" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_inboxchat1"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center|left"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emma"
+                android:textColor="@color/special"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="120dp"
+                android:layout_gravity="top|left"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13/02/2024"
+                android:textColor="@color/special"
+                android:textSize="15dp"
+                android:layout_marginRight="40dp"
+                android:layout_gravity="top|right"
+                android:layout_marginTop="13dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hi Sir, How may..."
+                android:textColor="@color/special"
+                android:textSize="15dp"
+                android:layout_marginLeft="120dp"
+                android:layout_gravity="top|left"
+                android:layout_marginTop="40dp"/>
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="bottom">
+
+        <include
+            android:id="@+id/bottom_menu"
+            layout="@layout/bottommenu_atchat"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="220dp"
+            android:layout_marginBottom="0dp"
+            android:background="#27374D"
+            android:orientation="horizontal" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
